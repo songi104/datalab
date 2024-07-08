@@ -38,4 +38,3 @@ result 폴더
 
   입력: 각각 pout, vout로 받음.</br> 출력: graph와 csv
 
-# auto.sh 파일 수동으로 하는 법
