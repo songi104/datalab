@@ -21,7 +21,7 @@ int main() {
     Simulator simulator(PAGE_SIZE, BIN_COUNT);
     simulator.setMomorySize(rss_size, ratio_fast_memory, ratio_capacity_memory);
 
-    ifstream inputFile("../data/trace_prefON.pout");
+    ifstream inputFile("data/trace_prefON.pout");
     if (!inputFile.is_open()) {
         std::cerr << "Failed to open the input file!" << std::endl;
         return 1;
